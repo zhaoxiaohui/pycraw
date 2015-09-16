@@ -2,14 +2,14 @@
 # -*- coding: gb18030 -*-
 #***************************************************************************
 # 
-#   Copyright (c) 2015 Baidu.com, Inc. All Rights Reserved
+#   Copyright (c) 2015 zhaoxiaohui.net, Inc. All Rights Reserved
 # 
 #***************************************************************************
 """
 This module manages the spider engines.
 Using thread pool
 
-Authros: zhaohui11(zhaohui11@baidu.com)
+Authros: downtownguy(downtownguy.hui@gmail.com)
 Date:    2015-09-12
 """
 import Queue

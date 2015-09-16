@@ -2,7 +2,7 @@
 # -*- coding: gb18030 -*-
 #**************************************************************************
 # 
-#    Copyright (c) 2015 Baidu.com, Inc. All Rights Reserved
+#    Copyright (c) 2015 zhaoxiaohui.net, Inc. All Rights Reserved
 # 
 #**************************************************************************
 """
@@ -10,7 +10,7 @@ This moudle is the central controller.
 Initializing the three managers and start the crawling
 work.
 
-Authors: zhaohui11(zhaohui11@baidu.com)
+Authors: downtownguy(downtownguy.hui@gmail.com)
 Date:    2012-09-13
 """
 import Queue
@@ -115,4 +115,4 @@ class Controller(object):
 
 
 if __name__ == '__main__':
-    Controller({}).run(['http://pycm.baidu.com:8081/'])
+    Controller({}).run(['http://www.sina.com/'])

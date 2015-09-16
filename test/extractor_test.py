@@ -2,13 +2,13 @@
 # -*- coding: gb18030 -*-
 #**************************************************************************
 # 
-#   Copyright (c) 2015 Baidu.com, Inc. All Rights Reserved
+#   Copyright (c) 2015 zhaoxiaohui.net, Inc. All Rights Reserved
 # 
 #**************************************************************************
 """
 Extractor test
 
-Authors: zhaohui11(zhaohui11@baidu.com)
+Authors: downtownguy(downtownguy.hui@gmail.com)
 Date:    2015-09-15
 """
 import sys
@@ -24,13 +24,13 @@ class ExtractorTest(unittest.TestCase):
     def test_parse(self):
         """parse"""
         sp = spider.spider.Spider()
-        res = sp.crawl(common.request.Request('http://pycm.baidu.com:8081', 0))
+        res = sp.crawl(common.request.Request('http://127.0.0.1:8081', 0))
         ex = extractor.extractor.Extractor()
         links, items = ex.parse(res)
         self.assertEqual(5, len(links))
         self.assertEqual(0, len(items))
 
-        res = sp.crawl(common.request.Request('http://pycm.baidu.com:8081/3/page3_4.html', 0))
+        res = sp.crawl(common.request.Request('http://127.0.0.1:8081/3/page3_4.html', 0))
         links, items = ex.parse(res)
         self.assertEqual(0, len(links))
         self.assertEqual(1, len(items))

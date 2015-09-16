@@ -2,13 +2,13 @@
 # -*- coding: gb18030 -*-
 #**************************************************************************
 #  
-#  Copyright (c) 2015 Baidu.com, Inc. All Rights Reserved
+#  Copyright (c) 2015 zhaoxiaohui.net, Inc. All Rights Reserved
 #  
 #**************************************************************************
 """
 Resource element(e.g. png/gif/bmp...)
 
-Authors: zhaohui11(zhaohui11@baidu.com)
+Authors: downtownguy(downtownguy.hui@gmail.com)
 Date:    2015-09-12
 """
 class Item(object):

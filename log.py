@@ -2,14 +2,14 @@
 # -*- coding: gb18030 -*-
 #***************************************************************************
 #  
-#  Copyright (c) 2015 Baidu.com, Inc. All Rights Reserved
+#  Copyright (c) 2015 zhaoxiaohui.net, Inc. All Rights Reserved
 #  
 #**************************************************************************/
 """
 This module encapsulate the python original module logging,
 giving more suitable way to quickly use
 
-Authors: zhaohui11(zhaohui11@baidu.com)
+Authors: downtownguy(downtownguy.hui@gmail.com)
 Date:    2015-09-10 
 """
 import os
