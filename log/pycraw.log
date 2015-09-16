@@ -1,0 +1,697 @@
+INFO: 09-14 22:06:37: extractor_manager.py:83 * 1101113696 extractor initalize done, begining to explore.
+INFO: 09-14 22:06:37: controller.py:48 * 1220745568 four queue size[res, req, link, item] => [1, 0, 0, 0]
+INFO: 09-14 22:06:37: processor_manager.py:93 * 1147316576 processor:link initialize done, begining to explre.
+INFO: 09-14 22:06:37: processor_manager.py:115 * 1189276000 processor:item initialize done, begining to explre.
+INFO: 09-14 22:06:37: spider_manager.py:72 * 1115847008 spider initalize done, begining to explore.
+INFO: 09-14 22:06:37: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/
+ succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/page2.html succeed
+WARNING: 09-14 22:06:37: spider.py:58 * 1157806432 get javascript:location.href="page4.html faild, msg:<urlopen error unknown url type: javascript>
+INFO: 09-14 22:06:37: spider.py:53 * 1090623840 get http://pycm.baidu.com:8081/mirror/index.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1241725280 get http://pycm.baidu.com:8081/page3.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1199765856 get http://pycm.baidu.com:8081/page1.html succeed
+ERROR: 09-14 22:06:37: extractor.py:75 * 1126336864 javascript:location.href="page4.html get a None page
+INFO: 09-14 22:06:37: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/page2_1.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1157806432 get http://pycm.baidu.com:8081/2/index.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1090623840 get http://pycm.baidu.com:8081/mirror/page1.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1241725280 get http://pycm.baidu.com:8081/mirror/page2.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1199765856 get http://pycm.baidu.com:8081/mirror/mirror/index.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1157806432 get http://pycm.baidu.com:8081/3/page3_4.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/mirror/page3.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1090623840 get http://pycm.baidu.com:8081/2/3/index.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1241725280 get http://pycm.baidu.com:8081/3/page3_1.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1199765856 get http://pycm.baidu.com:8081/mirror/mirror/page1.html succeed
+INFO: 09-14 22:06:37: processor.py:50 * 1252215136 save http://pycm.baidu.com:8081/3/image.jpg to ./output/http%3A%2F%2Fpycm.baidu.com%3A8081%2F3%2Fimage.jpg successfully
+INFO: 09-14 22:06:37: spider.py:53 * 1157806432 get http://pycm.baidu.com:8081/mirror/mirror/page2.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/mirror/mirror/page3.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1090623840 get http://pycm.baidu.com:8081/mirror/mirror/mirror/index.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1241725280 get http://pycm.baidu.com:8081/2/3/4/index.html succeed
+WARNING: 09-14 22:06:37: spider.py:58 * 1199765856 get http://pycm.baidu.com:8081/3/page3_2.html faild, msg:HTTP Error 404: Not Found
+ERROR: 09-14 22:06:37: extractor.py:75 * 1168296288 http://pycm.baidu.com:8081/3/page3_2.html get a None page
+INFO: 09-14 22:06:37: spider.py:53 * 1157806432 get http://pycm.baidu.com:8081/2/3/4/5/index.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page1.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1090623840 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page2.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1241725280 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page3.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1199765856 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1157806432 get http://pycm.baidu.com:8081/2/3/4/5/6/index.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1090623840 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1241725280 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-14 22:06:37: spider.py:53 * 1199765856 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1157806432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1090623840 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1241725280 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1199765856 get http://pycm.baidu.com:8081/2/3/4/5/6/7/index.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1157806432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1090623840 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1241725280 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1199765856 get http://pycm.baidu.com:8081/2/3/4/5/6/7/8/index.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1157806432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1090623840 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1136826720 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-14 22:06:38: spider.py:53 * 1241725280 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-14 22:06:38: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:38: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:39: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:39: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:39: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:39: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:39: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:39: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:39: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:39: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:39: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:39: controller.py:48 * 1220745568 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-14 22:06:39: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:39: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:40: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:40: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:40: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:40: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:40: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:40: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:40: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:40: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:40: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:40: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:40: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:41: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:41: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:41: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:41: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:41: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:41: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:41: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:41: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:41: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:41: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:41: controller.py:48 * 1220745568 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-14 22:06:41: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:42: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:42: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:42: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:42: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:42: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:42: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:42: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:42: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:42: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:42: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:42: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:43: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:43: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:43: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:43: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:43: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:43: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:43: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:43: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:43: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:43: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:43: controller.py:48 * 1220745568 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-14 22:06:43: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:44: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:44: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:44: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:44: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:44: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:44: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:44: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:44: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:44: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:44: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:44: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:45: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:45: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:45: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:45: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:45: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:45: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:45: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:45: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:45: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:45: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:45: controller.py:48 * 1220745568 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-14 22:06:45: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:46: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:46: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:46: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:46: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:46: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:46: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:46: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:46: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:46: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:46: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:46: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:47: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:47: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:47: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:47: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:47: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:47: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:47: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:47: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:47: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:47: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:47: processor_manager.py:39 * 1252215136 processor:item[0] waiting time out, task done
+INFO: 09-14 22:06:48: processor_manager.py:67 * 1210255712 processor:link[0] waiting time out, task done
+INFO: 09-14 22:06:48: spider_manager.py:47 * 1199765856 spider[3] wating time out, task done
+INFO: 09-14 22:06:48: extractor_manager.py:55 * 1126336864 extractor[0] waiting time out, task done
+INFO: 09-14 22:06:48: extractor_manager.py:55 * 1168296288 extractor[1] waiting time out, task done
+INFO: 09-14 22:06:48: processor_manager.py:67 * 1178786144 processor:link[1] waiting time out, task done
+INFO: 09-14 22:06:48: spider_manager.py:47 * 1157806432 spider[2] wating time out, task done
+INFO: 09-14 22:06:48: spider_manager.py:47 * 1090623840 spider[1] wating time out, task done
+INFO: 09-14 22:06:48: spider_manager.py:47 * 1136826720 spider[0] wating time out, task done
+INFO: 09-14 22:06:48: spider_manager.py:47 * 1241725280 spider[4] wating time out, task done
+INFO: 09-14 22:06:48: processor_manager.py:39 * 1231235424 processor:item[1] waiting time out, task done
+INFO: 09-14 22:06:48: controller.py:126 * 140284293572320 All works are done, going to exit
+INFO: 09-15 10:00:37: processor_manager.py:93 * 1160145248 processor:link initialize done, begining to explre.
+INFO: 09-15 10:00:37: spider_manager.py:72 * 1097206112 spider initalize done, begining to explore.
+INFO: 09-15 10:00:37: extractor_manager.py:83 * 1118185824 extractor initalize done, begining to explore.
+INFO: 09-15 10:00:37: controller.py:48 * 1233574240 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 10:00:37: processor_manager.py:115 * 1191614816 processor:item initialize done, begining to explre.
+INFO: 09-15 10:00:37: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/
+ succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1139165536 get http://pycm.baidu.com:8081/page3.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/page1.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1128675680 get http://pycm.baidu.com:8081/page2.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1202104672 get http://pycm.baidu.com:8081/mirror/index.html succeed
+WARNING: 09-15 10:00:37: spider.py:58 * 1170635104 get javascript:location.href="page4.html faild, msg:<urlopen error unknown url type: javascript>
+ERROR: 09-15 10:00:37: extractor.py:75 * 1084361056 javascript:location.href="page4.html get a None page
+INFO: 09-15 10:00:37: spider.py:53 * 1139165536 get http://pycm.baidu.com:8081/3/page3_1.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1128675680 get http://pycm.baidu.com:8081/page2_1.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/3/page3_4.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1202104672 get http://pycm.baidu.com:8081/2/index.html succeed
+INFO: 09-15 10:00:37: processor.py:50 * 1223084384 save http://pycm.baidu.com:8081/3/image.jpg to ./output/http%3A%2F%2Fpycm.baidu.com%3A8081%2F3%2Fimage.jpg successfully
+INFO: 09-15 10:00:37: spider.py:53 * 1170635104 get http://pycm.baidu.com:8081/mirror/page1.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1128675680 get http://pycm.baidu.com:8081/mirror/page3.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1139165536 get http://pycm.baidu.com:8081/mirror/page2.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/mirror/mirror/index.html succeed
+WARNING: 09-15 10:00:37: spider.py:58 * 1202104672 get http://pycm.baidu.com:8081/3/page3_2.html faild, msg:HTTP Error 404: Not Found
+INFO: 09-15 10:00:37: spider.py:53 * 1170635104 get http://pycm.baidu.com:8081/2/3/index.html succeed
+ERROR: 09-15 10:00:37: extractor.py:75 * 1149655392 http://pycm.baidu.com:8081/3/page3_2.html get a None page
+INFO: 09-15 10:00:37: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/mirror/mirror/page3.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1139165536 get http://pycm.baidu.com:8081/mirror/mirror/page2.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1128675680 get http://pycm.baidu.com:8081/mirror/mirror/page1.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1202104672 get http://pycm.baidu.com:8081/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1170635104 get http://pycm.baidu.com:8081/2/3/4/index.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1139165536 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1128675680 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1202104672 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1170635104 get http://pycm.baidu.com:8081/2/3/4/5/index.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1139165536 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1128675680 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1202104672 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1170635104 get http://pycm.baidu.com:8081/2/3/4/5/6/index.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1139165536 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1128675680 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1202104672 get http://pycm.baidu.com:8081/2/3/4/5/6/7/index.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1170635104 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1139165536 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/2/3/4/5/6/7/8/index.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1128675680 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1202104672 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 10:00:37: spider.py:53 * 1170635104 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 10:00:38: spider.py:53 * 1139165536 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 10:00:38: spider.py:53 * 1107695968 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 10:00:38: spider.py:53 * 1128675680 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 10:00:38: spider.py:53 * 1202104672 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 10:00:38: processor_manager.py:39 * 1244064096 processor:item[1] waiting time out, task done
+INFO: 09-15 10:00:38: processor_manager.py:39 * 1223084384 processor:item[0] waiting time out, task done
+INFO: 09-15 10:00:38: processor_manager.py:67 * 1212594528 processor:link[0] waiting time out, task done
+INFO: 09-15 10:00:38: extractor_manager.py:55 * 1149655392 extractor[1] waiting time out, task done
+INFO: 09-15 10:00:39: extractor_manager.py:55 * 1084361056 extractor[0] waiting time out, task done
+INFO: 09-15 10:00:39: spider_manager.py:47 * 1170635104 spider[3] wating time out, task done
+INFO: 09-15 10:00:39: processor_manager.py:67 * 1181124960 processor:link[1] waiting time out, task done
+INFO: 09-15 10:00:39: spider_manager.py:47 * 1139165536 spider[2] wating time out, task done
+INFO: 09-15 10:00:39: spider_manager.py:47 * 1107695968 spider[0] wating time out, task done
+INFO: 09-15 10:00:39: spider_manager.py:47 * 1128675680 spider[1] wating time out, task done
+INFO: 09-15 10:00:39: spider_manager.py:47 * 1202104672 spider[4] wating time out, task done
+INFO: 09-15 10:00:39: controller.py:48 * 1233574240 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 10:00:39: processor_manager.py:39 * 1244064096 processor:item[1] waiting time out, task done
+INFO: 09-15 10:00:39: processor_manager.py:39 * 1223084384 processor:item[0] waiting time out, task done
+INFO: 09-15 10:00:39: processor_manager.py:67 * 1212594528 processor:link[0] waiting time out, task done
+INFO: 09-15 10:00:39: extractor_manager.py:55 * 1149655392 extractor[1] waiting time out, task done
+INFO: 09-15 10:00:40: extractor_manager.py:55 * 1084361056 extractor[0] waiting time out, task done
+INFO: 09-15 10:00:40: spider_manager.py:47 * 1170635104 spider[3] wating time out, task done
+INFO: 09-15 10:00:40: processor_manager.py:67 * 1181124960 processor:link[1] waiting time out, task done
+INFO: 09-15 10:00:40: spider_manager.py:47 * 1139165536 spider[2] wating time out, task done
+INFO: 09-15 10:00:40: spider_manager.py:47 * 1107695968 spider[0] wating time out, task done
+INFO: 09-15 10:00:40: spider_manager.py:47 * 1128675680 spider[1] wating time out, task done
+INFO: 09-15 10:00:40: spider_manager.py:47 * 1202104672 spider[4] wating time out, task done
+INFO: 09-15 10:00:40: processor_manager.py:39 * 1244064096 processor:item[1] waiting time out, task done
+INFO: 09-15 10:00:40: processor_manager.py:39 * 1223084384 processor:item[0] waiting time out, task done
+INFO: 09-15 10:00:40: processor_manager.py:67 * 1212594528 processor:link[0] waiting time out, task done
+INFO: 09-15 10:00:40: extractor_manager.py:55 * 1149655392 extractor[1] waiting time out, task done
+INFO: 09-15 10:00:41: extractor_manager.py:55 * 1084361056 extractor[0] waiting time out, task done
+INFO: 09-15 10:00:41: spider_manager.py:47 * 1170635104 spider[3] wating time out, task done
+INFO: 09-15 10:00:41: processor_manager.py:67 * 1181124960 processor:link[1] waiting time out, task done
+INFO: 09-15 10:00:41: spider_manager.py:47 * 1139165536 spider[2] wating time out, task done
+INFO: 09-15 10:00:41: spider_manager.py:47 * 1107695968 spider[0] wating time out, task done
+INFO: 09-15 10:00:41: spider_manager.py:47 * 1128675680 spider[1] wating time out, task done
+INFO: 09-15 10:00:41: spider_manager.py:47 * 1202104672 spider[4] wating time out, task done
+INFO: 09-15 10:00:41: processor_manager.py:39 * 1244064096 processor:item[1] waiting time out, task done
+INFO: 09-15 10:00:41: controller.py:48 * 1233574240 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 10:00:41: processor_manager.py:39 * 1223084384 processor:item[0] waiting time out, task done
+INFO: 09-15 10:00:41: processor_manager.py:67 * 1212594528 processor:link[0] waiting time out, task done
+INFO: 09-15 10:00:41: extractor_manager.py:55 * 1149655392 extractor[1] waiting time out, task done
+INFO: 09-15 10:00:42: extractor_manager.py:55 * 1084361056 extractor[0] waiting time out, task done
+INFO: 09-15 10:00:42: spider_manager.py:47 * 1170635104 spider[3] wating time out, task done
+INFO: 09-15 10:00:42: processor_manager.py:67 * 1181124960 processor:link[1] waiting time out, task done
+INFO: 09-15 10:00:42: spider_manager.py:47 * 1139165536 spider[2] wating time out, task done
+INFO: 09-15 10:00:42: spider_manager.py:47 * 1107695968 spider[0] wating time out, task done
+INFO: 09-15 10:00:42: spider_manager.py:47 * 1128675680 spider[1] wating time out, task done
+INFO: 09-15 10:00:42: spider_manager.py:47 * 1202104672 spider[4] wating time out, task done
+INFO: 09-15 10:00:42: processor_manager.py:39 * 1244064096 processor:item[1] waiting time out, task done
+INFO: 09-15 10:00:42: processor_manager.py:39 * 1223084384 processor:item[0] waiting time out, task done
+INFO: 09-15 10:00:42: processor_manager.py:67 * 1212594528 processor:link[0] waiting time out, task done
+INFO: 09-15 10:00:42: extractor_manager.py:55 * 1149655392 extractor[1] waiting time out, task done
+INFO: 09-15 10:00:43: extractor_manager.py:55 * 1084361056 extractor[0] waiting time out, task done
+INFO: 09-15 10:00:43: spider_manager.py:47 * 1170635104 spider[3] wating time out, task done
+INFO: 09-15 10:00:43: processor_manager.py:67 * 1181124960 processor:link[1] waiting time out, task done
+INFO: 09-15 10:00:43: spider_manager.py:47 * 1139165536 spider[2] wating time out, task done
+INFO: 09-15 10:00:43: spider_manager.py:47 * 1107695968 spider[0] wating time out, task done
+INFO: 09-15 10:00:43: spider_manager.py:47 * 1128675680 spider[1] wating time out, task done
+INFO: 09-15 10:00:43: spider_manager.py:47 * 1202104672 spider[4] wating time out, task done
+INFO: 09-15 10:00:43: processor_manager.py:39 * 1244064096 processor:item[1] waiting time out, task done
+INFO: 09-15 10:00:43: controller.py:48 * 1233574240 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 10:00:43: processor_manager.py:39 * 1223084384 processor:item[0] waiting time out, task done
+INFO: 09-15 10:00:43: processor_manager.py:67 * 1212594528 processor:link[0] waiting time out, task done
+INFO: 09-15 10:00:43: extractor_manager.py:55 * 1149655392 extractor[1] waiting time out, task done
+INFO: 09-15 10:00:44: extractor_manager.py:55 * 1084361056 extractor[0] waiting time out, task done
+INFO: 09-15 10:00:44: spider_manager.py:47 * 1170635104 spider[3] wating time out, task done
+INFO: 09-15 10:00:44: processor_manager.py:67 * 1181124960 processor:link[1] waiting time out, task done
+INFO: 09-15 10:00:44: spider_manager.py:47 * 1139165536 spider[2] wating time out, task done
+INFO: 09-15 10:00:44: spider_manager.py:47 * 1107695968 spider[0] wating time out, task done
+INFO: 09-15 10:00:44: spider_manager.py:47 * 1128675680 spider[1] wating time out, task done
+INFO: 09-15 10:00:44: spider_manager.py:47 * 1202104672 spider[4] wating time out, task done
+INFO: 09-15 10:00:44: processor_manager.py:39 * 1244064096 processor:item[1] waiting time out, task done
+INFO: 09-15 10:00:44: processor_manager.py:39 * 1223084384 processor:item[0] waiting time out, task done
+INFO: 09-15 10:00:44: processor_manager.py:67 * 1212594528 processor:link[0] waiting time out, task done
+INFO: 09-15 10:00:44: extractor_manager.py:55 * 1149655392 extractor[1] waiting time out, task done
+INFO: 09-15 10:00:45: extractor_manager.py:55 * 1084361056 extractor[0] waiting time out, task done
+INFO: 09-15 10:00:45: spider_manager.py:47 * 1170635104 spider[3] wating time out, task done
+INFO: 09-15 10:00:45: processor_manager.py:67 * 1181124960 processor:link[1] waiting time out, task done
+INFO: 09-15 10:00:45: spider_manager.py:47 * 1139165536 spider[2] wating time out, task done
+INFO: 09-15 10:00:45: spider_manager.py:47 * 1107695968 spider[0] wating time out, task done
+INFO: 09-15 10:00:45: spider_manager.py:47 * 1128675680 spider[1] wating time out, task done
+INFO: 09-15 10:00:45: spider_manager.py:47 * 1202104672 spider[4] wating time out, task done
+INFO: 09-15 10:00:45: processor_manager.py:39 * 1244064096 processor:item[1] waiting time out, task done
+INFO: 09-15 10:00:45: processor_manager.py:39 * 1223084384 processor:item[0] waiting time out, task done
+INFO: 09-15 10:00:45: processor_manager.py:67 * 1212594528 processor:link[0] waiting time out, task done
+INFO: 09-15 10:00:45: extractor_manager.py:55 * 1149655392 extractor[1] waiting time out, task done
+INFO: 09-15 10:00:46: extractor_manager.py:55 * 1084361056 extractor[0] waiting time out, task done
+INFO: 09-15 10:00:46: spider_manager.py:47 * 1170635104 spider[3] wating time out, task done
+INFO: 09-15 10:00:46: processor_manager.py:67 * 1181124960 processor:link[1] waiting time out, task done
+INFO: 09-15 10:00:46: spider_manager.py:47 * 1139165536 spider[2] wating time out, task done
+INFO: 09-15 10:00:46: spider_manager.py:47 * 1107695968 spider[0] wating time out, task done
+INFO: 09-15 10:00:46: spider_manager.py:47 * 1128675680 spider[1] wating time out, task done
+INFO: 09-15 10:00:46: spider_manager.py:47 * 1202104672 spider[4] wating time out, task done
+INFO: 09-15 10:00:46: processor_manager.py:39 * 1244064096 processor:item[1] waiting time out, task done
+INFO: 09-15 10:00:46: controller.py:126 * 140349585888992 All works are done, going to exit
+INFO: 09-15 13:34:55: spider_manager.py:72 * 1084950880 spider initalize done, begining to explore.
+INFO: 09-15 13:34:55: controller.py:48 * 1228482912 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:34:55: processor_manager.py:93 * 1144564064 processor:link initialize done, begining to explre.
+INFO: 09-15 13:34:55: processor_manager.py:115 * 1165543776 processor:item initialize done, begining to explre.
+INFO: 09-15 13:34:55: spider.py:53 * 1123584352 get http://pycm.baidu.com:8081/
+ succeed
+INFO: 09-15 13:34:55: extractor_manager.py:83 * 1113094496 extractor initalize done, begining to explore.
+INFO: 09-15 13:34:55: spider.py:53 * 1123584352 get http://pycm.baidu.com:8081/page1.html succeed
+INFO: 09-15 13:34:55: spider.py:53 * 1102297440 get http://pycm.baidu.com:8081/page2.html succeed
+INFO: 09-15 13:34:55: spider.py:53 * 1102297440 get http://pycm.baidu.com:8081/mirror/index.html succeed
+INFO: 09-15 13:34:55: spider.py:53 * 1123584352 get http://pycm.baidu.com:8081/page3.html succeed
+WARNING: 09-15 13:34:55: spider.py:58 * 1123584352 get javascript:location.href="page4.html faild, msg:<urlopen error unknown url type: javascript>
+ERROR: 09-15 13:34:55: extractor.py:75 * 1134074208 javascript:location.href="page4.html get a None page
+INFO: 09-15 13:34:56: processor_manager.py:39 * 1186523488 processor:item[0] waiting time out, task done
+INFO: 09-15 13:34:56: processor_manager.py:67 * 1176033632 processor:link[2] waiting time out, task done
+INFO: 09-15 13:34:56: processor_manager.py:67 * 1155053920 processor:link[1] waiting time out, task done
+INFO: 09-15 13:34:56: processor_manager.py:67 * 1197013344 processor:link[4] waiting time out, task done
+INFO: 09-15 13:34:56: processor_manager.py:67 * 1280932192 processor:link[3] waiting time out, task done
+INFO: 09-15 13:34:56: processor_manager.py:39 * 1207503200 processor:item[1] waiting time out, task done
+INFO: 09-15 13:34:56: processor_manager.py:39 * 1249462624 processor:item[2] waiting time out, task done
+INFO: 09-15 13:34:56: extractor_manager.py:55 * 1217993056 extractor[1] waiting time out, task done
+INFO: 09-15 13:34:56: processor_manager.py:39 * 1291422048 processor:item[4] waiting time out, task done
+INFO: 09-15 13:34:56: processor_manager.py:39 * 1270442336 processor:item[3] waiting time out, task done
+INFO: 09-15 13:34:56: extractor_manager.py:55 * 1259952480 extractor[2] waiting time out, task done
+INFO: 09-15 13:34:56: extractor_manager.py:55 * 1312401760 extractor[3] waiting time out, task done
+INFO: 09-15 13:34:56: spider_manager.py:47 * 1102297440 spider[1] wating time out, task done
+INFO: 09-15 13:34:56: extractor_manager.py:55 * 1301911904 extractor[4] waiting time out, task done
+INFO: 09-15 13:34:56: processor_manager.py:67 * 1238972768 processor:link[0] waiting time out, task done
+INFO: 09-15 13:34:56: extractor_manager.py:55 * 1134074208 extractor[0] waiting time out, task done
+INFO: 09-15 13:34:56: spider_manager.py:47 * 1123584352 spider[0] wating time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:39 * 1186523488 processor:item[0] waiting time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:67 * 1176033632 processor:link[2] waiting time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:67 * 1155053920 processor:link[1] waiting time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:67 * 1197013344 processor:link[4] waiting time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:39 * 1207503200 processor:item[1] waiting time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:67 * 1280932192 processor:link[3] waiting time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:39 * 1249462624 processor:item[2] waiting time out, task done
+INFO: 09-15 13:34:57: extractor_manager.py:55 * 1217993056 extractor[1] waiting time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:39 * 1291422048 processor:item[4] waiting time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:39 * 1270442336 processor:item[3] waiting time out, task done
+INFO: 09-15 13:34:57: controller.py:48 * 1228482912 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:34:57: extractor_manager.py:55 * 1259952480 extractor[2] waiting time out, task done
+INFO: 09-15 13:34:57: extractor_manager.py:55 * 1312401760 extractor[3] waiting time out, task done
+INFO: 09-15 13:34:57: spider_manager.py:47 * 1102297440 spider[1] wating time out, task done
+INFO: 09-15 13:34:57: extractor_manager.py:55 * 1301911904 extractor[4] waiting time out, task done
+INFO: 09-15 13:34:57: processor_manager.py:67 * 1238972768 processor:link[0] waiting time out, task done
+INFO: 09-15 13:34:57: extractor_manager.py:55 * 1134074208 extractor[0] waiting time out, task done
+INFO: 09-15 13:34:57: spider_manager.py:47 * 1123584352 spider[0] wating time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:39 * 1186523488 processor:item[0] waiting time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:67 * 1176033632 processor:link[2] waiting time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:67 * 1155053920 processor:link[1] waiting time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:67 * 1197013344 processor:link[4] waiting time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:39 * 1207503200 processor:item[1] waiting time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:67 * 1280932192 processor:link[3] waiting time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:39 * 1249462624 processor:item[2] waiting time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:39 * 1291422048 processor:item[4] waiting time out, task done
+INFO: 09-15 13:34:58: extractor_manager.py:55 * 1217993056 extractor[1] waiting time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:39 * 1270442336 processor:item[3] waiting time out, task done
+INFO: 09-15 13:34:58: extractor_manager.py:55 * 1259952480 extractor[2] waiting time out, task done
+INFO: 09-15 13:34:58: extractor_manager.py:55 * 1312401760 extractor[3] waiting time out, task done
+INFO: 09-15 13:34:58: spider_manager.py:47 * 1102297440 spider[1] wating time out, task done
+INFO: 09-15 13:34:58: extractor_manager.py:55 * 1301911904 extractor[4] waiting time out, task done
+INFO: 09-15 13:34:58: processor_manager.py:67 * 1238972768 processor:link[0] waiting time out, task done
+INFO: 09-15 13:34:58: extractor_manager.py:55 * 1134074208 extractor[0] waiting time out, task done
+INFO: 09-15 13:34:58: spider_manager.py:47 * 1123584352 spider[0] wating time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:39 * 1186523488 processor:item[0] waiting time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:67 * 1176033632 processor:link[2] waiting time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:67 * 1155053920 processor:link[1] waiting time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:67 * 1197013344 processor:link[4] waiting time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:39 * 1207503200 processor:item[1] waiting time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:67 * 1280932192 processor:link[3] waiting time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:39 * 1249462624 processor:item[2] waiting time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:39 * 1291422048 processor:item[4] waiting time out, task done
+INFO: 09-15 13:34:59: extractor_manager.py:55 * 1217993056 extractor[1] waiting time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:39 * 1270442336 processor:item[3] waiting time out, task done
+INFO: 09-15 13:34:59: controller.py:48 * 1228482912 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:34:59: extractor_manager.py:55 * 1259952480 extractor[2] waiting time out, task done
+INFO: 09-15 13:34:59: extractor_manager.py:55 * 1312401760 extractor[3] waiting time out, task done
+INFO: 09-15 13:34:59: spider_manager.py:47 * 1102297440 spider[1] wating time out, task done
+INFO: 09-15 13:34:59: extractor_manager.py:55 * 1301911904 extractor[4] waiting time out, task done
+INFO: 09-15 13:34:59: processor_manager.py:67 * 1238972768 processor:link[0] waiting time out, task done
+INFO: 09-15 13:34:59: extractor_manager.py:55 * 1134074208 extractor[0] waiting time out, task done
+INFO: 09-15 13:34:59: spider_manager.py:47 * 1123584352 spider[0] wating time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:39 * 1186523488 processor:item[0] waiting time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:67 * 1176033632 processor:link[2] waiting time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:67 * 1155053920 processor:link[1] waiting time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:67 * 1197013344 processor:link[4] waiting time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:39 * 1207503200 processor:item[1] waiting time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:67 * 1280932192 processor:link[3] waiting time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:39 * 1249462624 processor:item[2] waiting time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:39 * 1291422048 processor:item[4] waiting time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:39 * 1270442336 processor:item[3] waiting time out, task done
+INFO: 09-15 13:35:00: extractor_manager.py:55 * 1217993056 extractor[1] waiting time out, task done
+INFO: 09-15 13:35:00: extractor_manager.py:55 * 1259952480 extractor[2] waiting time out, task done
+INFO: 09-15 13:35:00: extractor_manager.py:55 * 1312401760 extractor[3] waiting time out, task done
+INFO: 09-15 13:35:00: spider_manager.py:47 * 1102297440 spider[1] wating time out, task done
+INFO: 09-15 13:35:00: extractor_manager.py:55 * 1301911904 extractor[4] waiting time out, task done
+INFO: 09-15 13:35:00: processor_manager.py:67 * 1238972768 processor:link[0] waiting time out, task done
+INFO: 09-15 13:35:00: extractor_manager.py:55 * 1134074208 extractor[0] waiting time out, task done
+INFO: 09-15 13:35:00: spider_manager.py:47 * 1123584352 spider[0] wating time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:39 * 1186523488 processor:item[0] waiting time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:67 * 1176033632 processor:link[2] waiting time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:67 * 1155053920 processor:link[1] waiting time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:67 * 1197013344 processor:link[4] waiting time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:39 * 1207503200 processor:item[1] waiting time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:67 * 1280932192 processor:link[3] waiting time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:39 * 1249462624 processor:item[2] waiting time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:39 * 1291422048 processor:item[4] waiting time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:39 * 1270442336 processor:item[3] waiting time out, task done
+INFO: 09-15 13:35:01: extractor_manager.py:55 * 1217993056 extractor[1] waiting time out, task done
+INFO: 09-15 13:35:01: controller.py:48 * 1228482912 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:35:01: extractor_manager.py:55 * 1259952480 extractor[2] waiting time out, task done
+INFO: 09-15 13:35:01: extractor_manager.py:55 * 1312401760 extractor[3] waiting time out, task done
+INFO: 09-15 13:35:01: spider_manager.py:47 * 1102297440 spider[1] wating time out, task done
+INFO: 09-15 13:35:01: extractor_manager.py:55 * 1301911904 extractor[4] waiting time out, task done
+INFO: 09-15 13:35:01: processor_manager.py:67 * 1238972768 processor:link[0] waiting time out, task done
+INFO: 09-15 13:35:01: extractor_manager.py:55 * 1134074208 extractor[0] waiting time out, task done
+INFO: 09-15 13:35:01: spider_manager.py:47 * 1123584352 spider[0] wating time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:39 * 1186523488 processor:item[0] waiting time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:67 * 1176033632 processor:link[2] waiting time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:67 * 1155053920 processor:link[1] waiting time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:67 * 1197013344 processor:link[4] waiting time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:39 * 1207503200 processor:item[1] waiting time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:67 * 1280932192 processor:link[3] waiting time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:39 * 1249462624 processor:item[2] waiting time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:39 * 1291422048 processor:item[4] waiting time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:39 * 1270442336 processor:item[3] waiting time out, task done
+INFO: 09-15 13:35:02: extractor_manager.py:55 * 1217993056 extractor[1] waiting time out, task done
+INFO: 09-15 13:35:02: extractor_manager.py:55 * 1259952480 extractor[2] waiting time out, task done
+INFO: 09-15 13:35:02: extractor_manager.py:55 * 1312401760 extractor[3] waiting time out, task done
+INFO: 09-15 13:35:02: spider_manager.py:47 * 1102297440 spider[1] wating time out, task done
+INFO: 09-15 13:35:02: extractor_manager.py:55 * 1301911904 extractor[4] waiting time out, task done
+INFO: 09-15 13:35:02: processor_manager.py:67 * 1238972768 processor:link[0] waiting time out, task done
+INFO: 09-15 13:35:02: extractor_manager.py:55 * 1134074208 extractor[0] waiting time out, task done
+INFO: 09-15 13:35:02: spider_manager.py:47 * 1123584352 spider[0] wating time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:39 * 1186523488 processor:item[0] waiting time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:67 * 1176033632 processor:link[2] waiting time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:67 * 1155053920 processor:link[1] waiting time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:67 * 1197013344 processor:link[4] waiting time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:39 * 1207503200 processor:item[1] waiting time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:67 * 1280932192 processor:link[3] waiting time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:39 * 1249462624 processor:item[2] waiting time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:39 * 1291422048 processor:item[4] waiting time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:39 * 1270442336 processor:item[3] waiting time out, task done
+INFO: 09-15 13:35:03: extractor_manager.py:55 * 1217993056 extractor[1] waiting time out, task done
+INFO: 09-15 13:35:03: extractor_manager.py:55 * 1259952480 extractor[2] waiting time out, task done
+INFO: 09-15 13:35:03: extractor_manager.py:55 * 1312401760 extractor[3] waiting time out, task done
+INFO: 09-15 13:35:03: spider_manager.py:47 * 1102297440 spider[1] wating time out, task done
+INFO: 09-15 13:35:03: extractor_manager.py:55 * 1301911904 extractor[4] waiting time out, task done
+INFO: 09-15 13:35:03: processor_manager.py:67 * 1238972768 processor:link[0] waiting time out, task done
+INFO: 09-15 13:35:03: extractor_manager.py:55 * 1134074208 extractor[0] waiting time out, task done
+INFO: 09-15 13:35:03: spider_manager.py:47 * 1123584352 spider[0] wating time out, task done
+INFO: 09-15 13:35:04: processor_manager.py:39 * 1186523488 processor:item[0] waiting time out, task done
+INFO: 09-15 13:35:04: processor_manager.py:67 * 1155053920 processor:link[1] waiting time out, task done
+INFO: 09-15 13:35:04: processor_manager.py:67 * 1176033632 processor:link[2] waiting time out, task done
+INFO: 09-15 13:35:04: processor_manager.py:67 * 1197013344 processor:link[4] waiting time out, task done
+INFO: 09-15 13:35:04: processor_manager.py:39 * 1207503200 processor:item[1] waiting time out, task done
+INFO: 09-15 13:35:04: processor_manager.py:67 * 1280932192 processor:link[3] waiting time out, task done
+INFO: 09-15 13:35:04: processor_manager.py:39 * 1249462624 processor:item[2] waiting time out, task done
+INFO: 09-15 13:35:04: processor_manager.py:39 * 1291422048 processor:item[4] waiting time out, task done
+INFO: 09-15 13:35:04: processor_manager.py:39 * 1270442336 processor:item[3] waiting time out, task done
+INFO: 09-15 13:35:04: extractor_manager.py:55 * 1217993056 extractor[1] waiting time out, task done
+INFO: 09-15 13:35:04: controller.py:114 * 140323669104352 All works are done, going to exit
+INFO: 09-15 13:37:25: spider_manager.py:72 * 1110157664 spider initalize done, begining to explore.
+INFO: 09-15 13:37:25: controller.py:48 * 1215056224 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:37:25: extractor_manager.py:83 * 1131137376 extractor initalize done, begining to explore.
+INFO: 09-15 13:37:25: processor_manager.py:93 * 1141627232 processor:link initialize done, begining to explre.
+INFO: 09-15 13:37:25: spider.py:53 * 1120647520 get http://pycm.baidu.com:8081/
+ succeed
+INFO: 09-15 13:37:25: processor_manager.py:115 * 1173096800 processor:item initialize done, begining to explre.
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1152117088 processor:link[0] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1183586656 processor:link[1] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1204566368 processor:link[2] task done
+INFO: 09-15 13:37:25: extractor_manager.py:56 * 1162606944 extractor[0] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1152117088 processor:link[0] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1277995360 processor:link[4] task done
+INFO: 09-15 13:37:25: spider.py:53 * 1089079648 get http://pycm.baidu.com:8081/page1.html succeed
+INFO: 09-15 13:37:25: spider_manager.py:48 * 1120647520 spider[0] task done
+INFO: 09-15 13:37:25: spider.py:53 * 1120647520 get http://pycm.baidu.com:8081/page2.html succeed
+INFO: 09-15 13:37:25: extractor_manager.py:56 * 1099569504 extractor[1] task done
+INFO: 09-15 13:37:25: extractor_manager.py:56 * 1099569504 extractor[1] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1204566368 processor:link[2] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1183586656 processor:link[1] task done
+INFO: 09-15 13:37:25: spider_manager.py:48 * 1089079648 spider[1] task done
+INFO: 09-15 13:37:25: spider.py:53 * 1089079648 get http://pycm.baidu.com:8081/page3.html succeed
+INFO: 09-15 13:37:25: spider_manager.py:48 * 1120647520 spider[0] task done
+INFO: 09-15 13:37:25: spider.py:53 * 1120647520 get http://pycm.baidu.com:8081/mirror/index.html succeed
+INFO: 09-15 13:37:25: extractor_manager.py:56 * 1225546080 extractor[3] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1152117088 processor:link[0] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1152117088 processor:link[0] task done
+INFO: 09-15 13:37:25: extractor_manager.py:56 * 1267505504 extractor[4] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1246525792 processor:link[3] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1277995360 processor:link[4] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1152117088 processor:link[0] task done
+INFO: 09-15 13:37:25: processor_manager.py:68 * 1246525792 processor:link[3] task done
+INFO: 09-15 13:37:25: spider_manager.py:48 * 1089079648 spider[1] task done
+WARNING: 09-15 13:37:25: spider.py:58 * 1089079648 get javascript:location.href="page4.html faild, msg:<urlopen error unknown url type: javascript>
+INFO: 09-15 13:37:25: spider_manager.py:48 * 1120647520 spider[0] task done
+ERROR: 09-15 13:37:25: extractor.py:75 * 1162606944 javascript:location.href="page4.html get a None page
+INFO: 09-15 13:37:25: extractor_manager.py:56 * 1162606944 extractor[0] task done
+INFO: 09-15 13:37:25: spider_manager.py:48 * 1089079648 spider[1] task done
+INFO: 09-15 13:37:27: controller.py:48 * 1215056224 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:37:29: controller.py:48 * 1215056224 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:37:31: controller.py:48 * 1215056224 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:37:34: controller.py:114 * 139745502668512 All works are done, going to exit
+INFO: 09-15 13:38:56: spider_manager.py:72 * 1109698912 spider initalize done, begining to explore.
+INFO: 09-15 13:38:56: controller.py:48 * 1214597472 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:38:56: extractor_manager.py:83 * 1130678624 extractor initalize done, begining to explore.
+INFO: 09-15 13:38:56: processor_manager.py:93 * 1151658336 processor:link initialize done, begining to explre.
+INFO: 09-15 13:38:56: spider.py:53 * 1120188768 get http://pycm.baidu.com:8081/
+ succeed
+INFO: 09-15 13:38:56: processor_manager.py:115 * 1162148192 processor:item initialize done, begining to explre.
+INFO: 09-15 13:38:56: spider.py:53 * 1141168480 get http://pycm.baidu.com:8081/page1.html succeed
+INFO: 09-15 13:38:56: spider.py:53 * 1120188768 get http://pycm.baidu.com:8081/page2.html succeed
+INFO: 09-15 13:38:57: spider.py:53 * 1141168480 get http://pycm.baidu.com:8081/page3.html succeed
+INFO: 09-15 13:38:57: spider.py:53 * 1120188768 get http://pycm.baidu.com:8081/mirror/index.html succeed
+WARNING: 09-15 13:38:57: spider.py:58 * 1141168480 get javascript:location.href="page4.html faild, msg:<urlopen error unknown url type: javascript>
+ERROR: 09-15 13:38:57: extractor.py:75 * 1090849120 javascript:location.href="page4.html get a None page
+INFO: 09-15 13:38:58: controller.py:48 * 1214597472 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:39:00: controller.py:48 * 1214597472 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:39:02: controller.py:48 * 1214597472 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:39:04: processor_manager.py:68 * 1204107616 processor:link[0] task done
+INFO: 09-15 13:39:04: extractor_manager.py:56 * 1277536608 extractor[0] task done
+INFO: 09-15 13:39:05: extractor_manager.py:56 * 1172638048 extractor[2] task done
+INFO: 09-15 13:39:05: processor_manager.py:68 * 1288026464 processor:link[4] task done
+INFO: 09-15 13:39:05: extractor_manager.py:56 * 1246067040 extractor[3] task done
+INFO: 09-15 13:39:05: extractor_manager.py:56 * 1090849120 extractor[1] task done
+INFO: 09-15 13:39:05: processor_manager.py:68 * 1256556896 processor:link[3] task done
+INFO: 09-15 13:39:05: processor_manager.py:68 * 1183127904 processor:link[1] task done
+INFO: 09-15 13:39:05: processor_manager.py:68 * 1235577184 processor:link[2] task done
+INFO: 09-15 13:39:05: spider_manager.py:48 * 1120188768 spider[0] task done
+INFO: 09-15 13:39:05: spider_manager.py:48 * 1141168480 spider[1] task done
+INFO: 09-15 13:39:05: processor_manager.py:40 * 1193617760 processor:item[0] task done
+INFO: 09-15 13:39:05: extractor_manager.py:56 * 1309006176 extractor[4] task done
+INFO: 09-15 13:39:05: processor_manager.py:40 * 1225087328 processor:item[1] task done
+INFO: 09-15 13:39:05: processor_manager.py:40 * 1319496032 processor:item[4] task done
+INFO: 09-15 13:39:05: processor_manager.py:40 * 1267046752 processor:item[2] task done
+INFO: 09-15 13:39:05: processor_manager.py:40 * 1298516320 processor:item[3] task done
+INFO: 09-15 13:39:05: controller.py:114 * 139980466984672 All works are done, going to exit
+INFO: 09-15 13:39:37: spider_manager.py:72 * 1102207328 spider initalize done, begining to explore.
+INFO: 09-15 13:39:37: controller.py:48 * 1217595744 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:39:37: processor_manager.py:115 * 1175636320 processor:item initialize done, begining to explre.
+INFO: 09-15 13:39:37: extractor_manager.py:83 * 1123187040 extractor initalize done, begining to explore.
+INFO: 09-15 13:39:37: processor_manager.py:93 * 1144166752 processor:link initialize done, begining to explre.
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/
+ succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/page1.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/page2.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/page3.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/index.html succeed
+WARNING: 09-15 13:39:37: spider.py:58 * 1154656608 get javascript:location.href="page4.html faild, msg:<urlopen error unknown url type: javascript>
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/page2_1.html succeed
+ERROR: 09-15 13:39:37: extractor.py:75 * 1133676896 javascript:location.href="page4.html get a None page
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/2/index.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/page1.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/page2.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/page3.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/index.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/3/page3_1.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/3/page3_4.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/2/3/index.html succeed
+INFO: 09-15 13:39:37: processor.py:50 * 1291024736 save http://pycm.baidu.com:8081/3/image.jpg to ./output/http%3A%2F%2Fpycm.baidu.com%3A8081%2F3%2Fimage.jpg successfully
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/page1.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/page2.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/page3.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/index.html succeed
+WARNING: 09-15 13:39:37: spider.py:58 * 1154656608 get http://pycm.baidu.com:8081/3/page3_2.html faild, msg:HTTP Error 404: Not Found
+ERROR: 09-15 13:39:37: extractor.py:75 * 1133676896 http://pycm.baidu.com:8081/3/page3_2.html get a None page
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/2/3/4/index.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 13:39:37: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/2/3/4/5/index.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/2/3/4/5/6/index.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/2/3/4/5/6/7/index.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/2/3/4/5/6/7/8/index.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1112697184 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 13:39:38: spider.py:53 * 1154656608 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 13:39:39: controller.py:48 * 1217595744 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:39:41: controller.py:48 * 1217595744 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:39:43: controller.py:48 * 1217595744 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 13:39:45: extractor_manager.py:56 * 1186126176 extractor[1] task done
+INFO: 09-15 13:39:45: extractor_manager.py:56 * 1259555168 extractor[4] task done
+INFO: 09-15 13:39:45: processor_manager.py:68 * 1301514592 processor:link[3] task done
+INFO: 09-15 13:39:45: extractor_manager.py:56 * 1238575456 extractor[3] task done
+INFO: 09-15 13:39:45: processor_manager.py:68 * 1207105888 processor:link[0] task done
+INFO: 09-15 13:39:45: extractor_manager.py:56 * 1133676896 extractor[0] task done
+INFO: 09-15 13:39:45: spider_manager.py:48 * 1112697184 spider[0] task done
+INFO: 09-15 13:39:45: extractor_manager.py:56 * 1086916960 extractor[2] task done
+INFO: 09-15 13:39:45: spider_manager.py:48 * 1154656608 spider[1] task done
+INFO: 09-15 13:39:45: processor_manager.py:68 * 1249065312 processor:link[4] task done
+INFO: 09-15 13:39:45: processor_manager.py:40 * 1291024736 processor:item[0] task done
+INFO: 09-15 13:39:45: processor_manager.py:68 * 1165146464 processor:link[1] task done
+INFO: 09-15 13:39:46: processor_manager.py:68 * 1280534880 processor:link[2] task done
+INFO: 09-15 13:39:46: processor_manager.py:40 * 1228085600 processor:item[1] task done
+INFO: 09-15 13:39:46: processor_manager.py:40 * 1312004448 processor:item[2] task done
+INFO: 09-15 13:39:46: processor_manager.py:40 * 1196616032 processor:item[3] task done
+INFO: 09-15 13:39:46: processor_manager.py:40 * 1270045024 processor:item[4] task done
+INFO: 09-15 13:39:46: controller.py:114 * 139948430898912 All works are done, going to exit
+INFO: 09-15 14:11:59: spider_manager.py:72 * 1089718624 spider initalize done, begining to explore.
+INFO: 09-15 14:11:59: extractor_manager.py:83 * 1104677216 extractor initalize done, begining to explore.
+INFO: 09-15 14:11:59: processor_manager.py:93 * 1148316000 processor:link initialize done, begining to explre.
+INFO: 09-15 14:11:59: controller.py:48 * 1200765280 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 14:11:59: processor_manager.py:115 * 1179785568 processor:item initialize done, begining to explre.
+INFO: 09-15 14:11:59: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/
+ succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/page1.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/page2.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/page3.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/index.html succeed
+WARNING: 09-15 14:12:00: spider.py:58 * 1127336288 get javascript:location.href="page4.html faild, msg:<urlopen error unknown url type: javascript>
+ERROR: 09-15 14:12:00: extractor.py:75 * 1137826144 javascript:location.href="page4.html get a None page
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/page2_1.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/2/index.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/3/page3_1.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/3/page3_4.html succeed
+INFO: 09-15 14:12:00: processor.py:50 * 1211255136 save http://pycm.baidu.com:8081/3/image.jpg to ./output/http%3A%2F%2Fpycm.baidu.com%3A8081%2F3%2Fimage.jpg successfully
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/page1.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/page2.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/page3.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/index.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/2/3/index.html succeed
+WARNING: 09-15 14:12:00: spider.py:58 * 1127336288 get http://pycm.baidu.com:8081/3/page3_2.html faild, msg:HTTP Error 404: Not Found
+ERROR: 09-15 14:12:00: extractor.py:75 * 1137826144 http://pycm.baidu.com:8081/3/page3_2.html get a None page
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/page1.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/page2.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/page3.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/2/3/4/index.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/2/3/4/5/index.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/2/3/4/5/6/index.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 14:12:00: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/2/3/4/5/6/7/index.html succeed
+INFO: 09-15 14:12:01: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 14:12:01: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 14:12:01: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 14:12:01: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 14:12:01: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/2/3/4/5/6/7/8/index.html succeed
+INFO: 09-15 14:12:01: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html succeed
+INFO: 09-15 14:12:01: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html succeed
+INFO: 09-15 14:12:01: spider.py:53 * 1116846432 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html succeed
+INFO: 09-15 14:12:01: spider.py:53 * 1127336288 get http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html succeed
+INFO: 09-15 14:12:01: controller.py:48 * 1200765280 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 14:12:03: controller.py:48 * 1200765280 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 14:12:05: controller.py:48 * 1200765280 four queue size[res, req, link, item] => [0, 0, 0, 0]
+INFO: 09-15 14:12:08: extractor_manager.py:56 * 1137826144 extractor[0] task done
+INFO: 09-15 14:12:08: processor_manager.py:68 * 1190275424 processor:link[1] task done
+INFO: 09-15 14:12:08: spider_manager.py:48 * 1116846432 spider[0] task done
+INFO: 09-15 14:12:08: extractor_manager.py:56 * 1158805856 extractor[1] task done
+INFO: 09-15 14:12:08: processor_manager.py:40 * 1211255136 processor:item[0] task done
+INFO: 09-15 14:12:08: spider_manager.py:48 * 1127336288 spider[1] task done
+INFO: 09-15 14:12:08: processor_manager.py:68 * 1169295712 processor:link[0] task done
+INFO: 09-15 14:12:08: processor_manager.py:40 * 1221744992 processor:item[1] task done
+INFO: 09-15 14:12:08: controller.py:114 * 140190689277664 All works are done, going to exit
